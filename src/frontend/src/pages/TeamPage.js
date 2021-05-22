@@ -31,6 +31,9 @@ export const TeamPage = () => {
     return (
         <div className="TeamPage">
             <div className="team-name-section">
+                <div className="back-link">
+                    <Link to={`/team`}>&#60;&#60; Back</Link>
+                </div>
                 <h1 className="team-name">{team.teamName}</h1>
             </div>
             <div className="win-loss-section">
